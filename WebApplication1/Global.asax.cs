@@ -12,7 +12,6 @@ namespace WebApplication1
 	{
 		protected void Application_Start()
 		{
-			// Add comment
 			AreaRegistration.RegisterAllAreas();
 			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
