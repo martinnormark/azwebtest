@@ -23,7 +23,7 @@ namespace WebApplication1.Controllers
 
 			foreach (var item in claimsIdentity.Claims)
 			{
-				s += "Claim: '" + item.Type + "' | Value: '" + item.Value + '";
+				s += "Claim: '" + item.Type + "' | Value: '" + item.Value + "'";
 			}
 
 			ViewBag["debug"] = s;
