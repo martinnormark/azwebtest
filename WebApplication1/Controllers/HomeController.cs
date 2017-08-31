@@ -26,9 +26,9 @@ namespace WebApplication1.Controllers
 				s += "Claim: '" + item.Type + "' | Value: '" + item.Value + "'";
 			}
 
-			ViewBag["debug"] = s;
-			ViewBag["username"] = identity.Name;
-			ViewBag["isauthed"] = identity.IsAuthenticated;
+			ViewBag.debug = s;
+			ViewBag.username = identity.Name;
+			ViewBag.isauthed = identity.IsAuthenticated;
 
 			return View();
 		}
